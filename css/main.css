@@ -1,0 +1,33 @@
+body {
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	width: 970px;
+	margin: auto;
+	text-align: center;
+	background-image: url('../img/background.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+	.container .logo {
+		margin: 20px 0px;
+	}
+
+.block {
+	padding: 20px;
+	margin: 0px 0px 10px 0px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: #FFF;
+	font-size: 22px;
+	background-color: rgba(0,0,0, 0.9);
+}
+	.block.elon {
+		background-image: url('../img/elon.gif');
+		background-size:  auto 480px;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
